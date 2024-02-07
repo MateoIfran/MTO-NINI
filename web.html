@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyDVoTOESmHbGDcD2xJRXGf9ZygDf8y_200",
+      authDomain: "mtonini-cf383.firebaseapp.com",
+      projectId: "mtonini-cf383",
+      storageBucket: "mtonini-cf383.appspot.com",
+      messagingSenderId: "12692675071",
+      appId: "1:12692675071:web:aa5720e1f1f4f76aa1afca",
+      measurementId: "G-SM804KNN76"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+<body>
+    <header>
+        <h1>Mantenimiento Nini Moreno</h1>
+        <!-- Aquí va el logo de la página o una foto -->
+    </header>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="web.html">Inicio</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="page-container">
+         <!-- Subtítulo y descripción -->
+        <div class="page-container">
+            <h2>Descripción de la página</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis consectetur eros a turpis malesuada, ut scelerisque nulla venenatis.</p>
+        </div>
+        <div class="table-container">
+            <!-- Tabla con la descripción de los técnicos -->
+            <table id="tecnicos-table">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Sector de Trabajo</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Juan</td>
+                        <td>Gómez</td>
+                        <td>Electricidad</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>María</td>
+                        <td>Rodríguez</td>
+                        <td>Robotica</td>
+                        <td>De baja</td>
+                    </tr>
+                    <tr>
+                        <td>Carlos</td>
+                        <td>Pérez</td>
+                        <td>Parque Rodante</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>Laura</td>
+                        <td>Fernández</td>
+                        <td>Automatismo</td>
+                        <td>De baja</td>
+                    </tr>
+                    <tr>
+                        <td>Luis</td>
+                        <td>Díaz</td>
+                        <td>Frios</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>Andrea</td>
+                        <td>Alvarez</td>
+                        <td>Electricidad</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>Pablo</td>
+                        <td>García</td>
+                        <td>Parque Rodante</td>
+                        <td>De baja</td>
+                    </tr>
+                    <tr>
+                        <td>Julieta</td>
+                        <td>Martínez</td>
+                        <td>Automatismo</td>
+                        <td>Activo</td>
+                    </tr>
+                    <tr>
+                        <td>Rodrigo</td>
+                        <td>Ramírez</td>
+                        <td>Frios</td>
+                        <td>De baja</td>
+                    </tr>
+                    <tr>
+                        <td>Ana</td>
+                        <td>Ruiz</td>
+                        <td>Robotica</td>
+                        <td>Activo</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <p>Derechos de autor © 2024 Mantenimiento Nini Moreno</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mantenimiento Nini Moreno</h1>
+        <!-- Aquí va el logo de la página o una foto -->
+    </header>
+
+    <!-- Nav Principal -->
+    <nav id="main-nav">
+        <ul>
+            <li><a href="web.html">Inicio</a></li>
+            <li><a href="formularios.html">Formularios</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Nav Secundario -->
+    <nav id="secondary-nav">
+        <ul>
+            <li><a href="frios.html">Frios</a></li>
+            <li><a href="electricidad.html">Electricidad</a></li>
+            <li><a href="robotica.html">Robotica</a></li>
+            <li><a href="parque-rodante.html">Parque Rodante</a></li>
+        </ul>
+    </nav>
+
+        <!-- Contenido del formulario -->
+        <div class="container">
+            <h2>Sector Fríos - Formulario de Mantenimiento</h2>
+            <form id="formulario-frios">
+                <table class="formulario-table">
+                    <tr>
+                        <td>Sala de Compresores - Rack 1</td>
+                        <td>
+                            <select class="status-select" onchange="cambiarColorFila(this)">
+                                <option value="">----</option>
+                                <option value="operativo">Operativo</option>
+                                <option value="mantenimiento">En Mantenimiento</option>
+                                <option value="fuera-de-servicio">Fuera de Servicio</option>
+                            </select>
+                        </td>
+                        <td><textarea class="observaciones"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Sala de Compresores - Rack 2</td>
+                        <td>
+                            <select class="status-select" onchange="cambiarColorFila(this)">
+                                <option value="">----</option>
+                                <option value="operativo">Operativo</option>
+                                <option value="mantenimiento">En Mantenimiento</option>
+                                <option value="fuera-de-servicio">Fuera de Servicio</option>
+                            </select>
+                        </td>
+                        <td><textarea class="observaciones"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Sub Cooler 1</td>
+                        <td>
+                            <select class="status-select" onchange="cambiarColorFila(this)">
+                                <option value="">----</option>
+                                <option value="operativo">Operativo</option>
+                                <option value="mantenimiento">En Mantenimiento</option>
+                                <option value="fuera-de-servicio">Fuera de Servicio</option>
+                            </select>
+                        </td>
+                        <td><textarea class="observaciones"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Sub Cooler 2</td>
+                        <td>
+                            <select class="status-select" onchange="cambiarColorFila(this)">
+                                <option value="">----</option>
+                                <option value="operativo">Operativo</option>
+                                <option value="mantenimiento">En Mantenimiento</option>
+                                <option value="fuera-de-servicio">Fuera de Servicio</option>
+                            </select>
+                        </td>
+                        <td><textarea class="observaciones"></textarea></td>
+                    </tr>
+                    <!-- Agregar más filas si es necesario -->
+                    <tr>
+                        <td>Sistema Boss - Verificación de Eventos</td>
+                        <td>
+                            <select class="status-select" onchange="cambiarColorFila(this)">
+                                <option value="">----</option>
+                                <option value="operativo">Operativo</option>
+                                <option value="mantenimiento">En Mantenimiento</option>
+                                <option value="fuera-de-servicio">Fuera de Servicio</option>
+                            </select>
+                        </td>
+                        <td><textarea class="observaciones"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Cámaras - Control de Temperatura</td>
+                        <td>
+                            <select class="status-select" onchange="cambiarColorFila(this)">
+                                <option value="">----</option>
+                                <option value="operativo">Operativo</option>
+                                <option value="mantenimiento">En Mantenimiento</option>
+                                <option value="fuera-de-servicio">Fuera de Servicio</option>
+                            </select>
+                        </td>
+                        <td><textarea class="observaciones"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Pozos y Heladeras - Control de Temperatura</td>
+                        <td>
+                            <select class="status-select" onchange="cambiarColorFila(this)">
+                                <option value="">----</option>
+                                <option value="operativo">Operativo</option>
+                                <option value="mantenimiento">En Mantenimiento</option>
+                                <option value="fuera-de-servicio">Fuera de Servicio</option>
+                            </select>
+                        </td>
+                        <td><textarea class="observaciones"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>Desagües - Verificación</td>
+                        <td>
+                            <select class="status-select" onchange="cambiarColorFila(this)">
+                                <option value="">----</option>
+                                <option value="operativo">Operativo</option>
+                                <option value="mantenimiento">En Mantenimiento</option>
+                                <option value="fuera-de-servicio">Fuera de Servicio</option>
+                            </select>
+                        </td>
+                        <td><textarea class="observaciones"></textarea></td>
+                    </tr>
+                </table>
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+
+        <!-- Footer -->
+        <footer>
+            <p>&copy; 2024 Mantenimiento Nini Moreno</p>
+        </footer>
+    </div>
+    <!-- Agrega el enlace a tu archivo JavaScript al final del body -->
+    <script src="script.js"></script>
+</body>
+</html>

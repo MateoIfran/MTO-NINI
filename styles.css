@@ -1,0 +1,187 @@
+/* Estilos para el Nav Principal */
+#main-nav {
+    background-color: #2E4957;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#main-nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+#main-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+#main-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+#main-nav ul li a:hover {
+    background-color: #555;
+}
+
+/* Estilos para el Nav Secundario */
+#secondary-nav {
+    background-color: #666;
+    padding: 20px 0; /* Aumentar la altura */
+    text-align: center;
+}
+
+#secondary-nav ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+}
+
+#secondary-nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+#secondary-nav ul li:last-child {
+    margin-right: 0;
+}
+
+#secondary-nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 16px; /* Ajustar el padding */
+    border-radius: 5px;
+}
+
+#secondary-nav ul li a:hover {
+    background-color: #888;
+}
+
+
+/* Estilos para el header */
+header {
+    background-color: #2E4957; /* Color de fondo del header */
+    color: #fff; /* Color del texto */
+    text-align: center;
+    font-size: x-large;
+    padding: 20px 0; /* Espaciado interno */
+}
+
+
+footer {
+    position: relative;
+    clear: both;
+    width: 100%;
+    background-color: #2E4957;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+}
+
+/* Estilos para la tabla */
+#tecnicos-table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto; /* Centrar la tabla */
+}
+
+#tecnicos-table th, #tecnicos-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#tecnicos-table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+/* Estilos para el subtítulo y la descripción */
+.page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.page-container h2 {
+    color: #333;
+}
+
+.page-container p {
+    color: #666;
+}
+
+/* Estilos para el formulario en frios.html */
+
+.container {
+    margin: 50px auto;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+.formulario-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.formulario-table th, .formulario-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.status-select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.observaciones {
+    width: calc(100% - 20px);
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #2E4957;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Agregar estilos para las clases de color */
+.operativo {
+    background-color: #d4edda; /* Verde */
+}
+
+.mantenimiento {
+    background-color: #fff3cd; /* Amarillo */
+}
+
+.fuera-de-servicio {
+    background-color: #f8d7da; /* Rojo */
+}
